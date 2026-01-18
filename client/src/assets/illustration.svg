@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b0c15;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1d2d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6d28d9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-grad)" />
+  <g transform="translate(400, 300)">
+    <circle r="150" fill="none" stroke="url(#accent-grad)" stroke-width="20" stroke-dasharray="20,10" opacity="0.5">
+       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle r="100" fill="none" stroke="#22d3ee" stroke-width="10" opacity="0.8">
+       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <path d="M-50,-50 L50,50 M-50,50 L50,-50" stroke="#6d28d9" stroke-width="15" stroke-linecap="round" />
+  </g>
+  <text x="400" y="550" font-family="sans-serif" font-size="40" fill="#f5f5f5" text-anchor="middle">DevWeave</text>
+</svg>
