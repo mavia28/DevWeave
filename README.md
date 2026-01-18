@@ -49,7 +49,7 @@ Experience DevWeave in action: [**Launch Live Preview**](https://dev-weave-live.
 
 ## 🔌 Installation Guide
 
-### Option 1: Manual Setup
+### Manual Setup
 
 1. **Fork & Clone**:
    ```bash
@@ -87,21 +87,6 @@ Experience DevWeave in action: [**Launch Live Preview**](https://dev-weave-live.
 5. **Open Studio**:
    Navigate to `http://localhost:5173/`
 
-### Option 2: Docker Deployment
-
-1. **Prerequisites**: Ensure Docker Desktop is running.
-
-2. **Pull Containers**:
-   ```bash
-   docker pull mavia28/dev-weave-server:latest
-   docker pull mavia28/dev-weave-client:latest
-   ```
-
-3. **Ignite Services**:
-   ```bash
-   docker run -d -p 3000:3000 --name dev-weave-server mavia28/dev-weave-server:latest
-   docker run -d -p 5173:5173 --name dev-weave-client mavia28/dev-weave-client:latest
-   ```
 
 ## �️ Roadmap
 
